@@ -67,7 +67,7 @@ $(function() {
 						$("#console-body").append("<p class=\"css-typing\">yxeng@yxeng:~$ Please install package 'mind' before proceeding.</p>");
 					}
 					else{
-						var myArray = ["<p class=\"css-typing\">yxeng@yxeng:~$ play: plays yxeng's favourite music</p>","<p class=\"css-typing\">yxeng@yxeng:~$ pause: pauses the song if playing</p>", "<p class=\"css-typing\">yxeng@yxeng:~$ info: find out who yxeng is</p>", "<p class=\"css-typing\">yxeng@yxeng:~$ hobbies: find out what yxeng likes</p>","<p class=\"css-typing\">yxeng@yxeng:~$ universe: outputs the answer of life, universe, and everything</p>", "<p class=\"css-typing\">yxeng@yxeng:~$ credits: is this website original?</p>"];
+						var myArray = ["<p class=\"css-typing\">yxeng@yxeng:~$ play: plays yxeng's favourite music</p>","<p class=\"css-typing\">yxeng@yxeng:~$ pause: pauses the song if playing</p>", "<p class=\"css-typing\">yxeng@yxeng:~$ info: Get info on yxeng</p>", "<p class=\"css-typing\">yxeng@yxeng:~$ hobbies: Get yxeng's hobbies</p>","<p class=\"css-typing\">yxeng@yxeng:~$ universe: outputs the answer of life, universe, and everything</p>", "<p class=\"css-typing\">yxeng@yxeng:~$ credits: is this website original?</p>"];
 						myFunction(myArray);
 					}
 
@@ -120,7 +120,7 @@ $(function() {
 				
 				case ('universe'):
 					if (init === true){
-						var myArray = ["<p class=\"css-typing\">yxeng@yxeng:~$ The answer is 42.</p>"];
+						var myArray = ["<p class=\"css-typing\">yxeng@yxeng:~$ Hmmm.... 42</p>"];
 						myFunction(myArray);
 					}
 					else {
@@ -129,7 +129,7 @@ $(function() {
 					break;
 				case ('credits'):
 					if (init === true){
-						var myArray = ["<p class=\"css-typing\">yxeng@yxeng:~$ The idea came from www.lindsaylevine.com</p>","<p class=\"css-typing\">yxeng@yxeng:~$ Yes this isn't my idea</p>","<p class=\"css-typing\">yxeng@yxeng:~$ But I did my best to code the whole thing :)</p>","<p class=\"css-typing\">yxeng@yxeng:~$ I really hope you like this :)</p>","<p class=\"css-typing\">yxeng@yxeng:~$ Happy Birthday yxeng!</p>","<p class=\"css-typing\">yxeng@yxeng:~$ Yours sincerely,</p>","<p class=\"css-typing\">yxeng@yxeng:~$ Bear Bear :)</p>"];
+						var myArray = ["<p class=\"css-typing\">yxeng@yxeng:~$ The idea came from www.lindsaylevine.com</p>"];
 						myFunction(myArray);
 					}
 					else {
